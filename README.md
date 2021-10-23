@@ -8,3 +8,13 @@ If you want to use this to kickstart your own code, you'll need to sign up for a
 pip3 install -r requirements 
 
 Developed on WSL Ubuntu and VScode if that matters.
+
+
+Requirements:
+Chrome 
+sudo pip3 install virtualenv
+source .venv/bin/activate
+wget https://chromedriver.storage.googleapis.com/95.0.4638.17/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip -d drivers/
+
+run qbot.py
